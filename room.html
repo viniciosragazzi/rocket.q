@@ -42,7 +42,7 @@
                     <label for="question-text" class="title">Faça sua pergunta</label>
                     <div class="question-box">
                         <textarea name="question-text" id="question-text" style="resize: none;"
-                        placeholder="O que você quer perguntar?"></textarea>
+                            placeholder="O que você quer perguntar?"></textarea>
                         <div class="question-box-description">
                             <span>
                                 <img src="./assets/img/lock_black_24dp.svg" alt="Icone de Cadeado">
@@ -55,7 +55,7 @@
                 </form>
             </section>
 
-            <section class="notQuestion">
+            <section class="notQuestion isQuestion">
                 <img src="./assets/img/notQuestion.svg" alt="Não há">
                 <h2>
                     Nenhuma pergunta por aqui...
@@ -63,6 +63,20 @@
                 <p>
                     Faça sua primeira pergunta e envie o código dessa sala para outras pessoas!
                 </p>
+            </section>
+
+            <section class="questionsList">
+                <div class="questionListItem">
+                    <div class="questionItemHeader">
+                        <img src="./assets/img/Avatar.svg" alt="Avatar da pessoa que fez a pergunta anônima"
+                            class="avatarQuestion">
+                        <span class="question">Qual a diferença entre const, var e let no Javascript?</span>
+                    </div>
+                    <div class="questionItemButtons">
+                        <span class="readMarker"><img src="./assets/img/check.svg" alt="Marcar como lida">Marcar como lida</span>
+                        <span class="readMarker"><img src="./assets/img/trash.svg" alt="Excluir mensagem">Excluir</span>
+                    </div>
+                </div>
             </section>
         </div>
     </main>
