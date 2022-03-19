@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!--/FONTS-->
+    <!--CSS-->
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Roquet.q-Index</title>
+</head>
+
+<body>
+
+    <header class="header-room">
+        <div class="container">
+            <img src="./assets/img/logo.svg" alt="Logotipo Roquet">
+
+            <div class="button-area">
+                <button id="" class="button btn-white">
+                    <span id="number-room">#323243</span>
+                    <img src="./assets/img/copy.svg" alt="Numero da Sala">
+                </button>
+                <button href="room.html" class="button btn-blue">
+                    <img src="./assets/img/usersW.svg" alt="Criar sala">
+                    Criar sala
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class="main-room">
+        <div class="container">
+            <section class="questionArea">
+                <form action="">
+                    <label for="question-text" class="title">Faça sua pergunta</label>
+                    <div class="question-box">
+                        <textarea name="question-text" id="question-text" style="resize: none;"
+                        placeholder="O que você quer perguntar?"></textarea>
+                        <div class="question-box-description">
+                            <span>
+                                <img src="./assets/img/lock_black_24dp.svg" alt="Icone de Cadeado">
+                                Esta pergunta é anônima
+                            </span>
+
+                            <button class="button btn-blue">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+
+            <section class="notQuestion">
+                <img src="./assets/img/notQuestion.svg" alt="Não há">
+                <h2>
+                    Nenhuma pergunta por aqui...
+                </h2>
+                <p>
+                    Faça sua primeira pergunta e envie o código dessa sala para outras pessoas!
+                </p>
+            </section>
+        </div>
+    </main>
+
+</body>
+
+</html>
