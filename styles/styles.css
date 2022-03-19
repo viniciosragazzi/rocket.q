@@ -88,6 +88,7 @@ html body .balls {
   top: 0;
   display: grid;
   justify-content: flex-end;
+  overflow: hidden;
 }
 html body .balls .ball {
   -webkit-clip-path: circle(50% at 50% 50%);

@@ -93,6 +93,7 @@ html {
       top: 0;
       display: grid;
       justify-content: flex-end;
+      overflow: hidden;
       .ball {
         clip-path: circle(50% at 50% 50%);
         background-color: var(--light-blue);
